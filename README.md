@@ -1,28 +1,52 @@
-# Protium_Assignment
-Predictive Objective: The main objective of your project is to predict whether an applicant will default on their loan or credit obligation. This is a binary classification problem, where 'Default' is the target variable, taking on values of 0 (no default) and 1 (default).
-Risk Assessment:
-
-our project is concerned with assessing the risk associated with lending to individuals or entities. The features in the dataset are used to determine the creditworthiness of applicants, helping financial institutions make informed decisions about whether to approve or deny credit applications.
-
-Techniques and Algorithms:
-
-Feature Engineering: I have performed feature engineering to preprocess and extract relevant information from the dataset. This could include transforming, encoding, or creating new features.
-Binary Classification: our project is framed as a binary classification task, which means I have  employed classification algorithms to make predictions. It's common in credit risk assessment to use machine learning models to evaluate applicants' creditworthiness.
-
-Data Analysis:
-
-The project likely involved extensive data analysis and exploratory data analysis (EDA) to understand the dataset's characteristics and gain insights into the features and their relationships.
-Boosting Algorithms:
-
-Boosting algorithms, an ensemble learning technique, have been utilized in our project. These algorithms are known for improving classification models' performance—some boosting algorithms like  CatBoost. Boosting algorithms combine the results of multiple weak learners (typically decision trees) to create a robust predictive model.
-
-Model Evaluation:
-
-Model evaluation would have been a crucial part of your project. I Have used metrics like accuracy, precision, recall, F1 score to assess the performance of our predictive model.
-
-
-Since Random forest regressor Gives the most accuracy I have selected that model.
-the model selection python file where I use GridSearch to asses the best parameters has not been attached since the zip file exceeds the maximum file size 10 mb.
-Thankyou for providing this oppurtunity.
-
-Jawakar DN
+INSERT INTO Table_1 (store_id, store_name, location, owner_name, phone_number)
+VALUES
+    (1, 'Store A', 'Location 1', 'Owner X', '111-111-1111'),
+    (2, 'Store B', 'Location 2', 'Owner Y', '222-222-2222'),
+    (3, 'Store C', 'Location 3', 'Owner Z', '333-333-3333'),
+    (4, 'Store D', 'Location 4', 'Owner P', '444-444-4444'),
+    (5, 'Store E', 'Location 5', 'Owner Q', '555-555-5555'),
+    (6, 'Store F', 'Location 6', 'Owner R', '666-666-6666'),
+    (7, 'Store G', 'Location 7', 'Owner S', '777-777-7777'),
+    (8, 'Store H', 'Location 8', 'Owner T', '888-888-8888'),
+    (9, 'Store I', 'Location 9', 'Owner U', '999-999-9999'),
+    (10, 'Store J', 'Location 10', 'Owner V', '101-101-1010'),
+    (11, 'Store K', 'Location 11', 'Owner W', '111-111-1112'),
+    (12, 'Store L', 'Location 12', 'Owner X', '121-121-1212'),
+    (13, 'Store M', 'Location 13', 'Owner Y', '131-131-1313'),
+    (14, 'Store N', 'Location 14', 'Owner Z', '141-141-1414'),
+    (15, 'Store O', 'Location 15', 'Owner A', '151-151-1515'),
+    (16, 'Store P', 'Location 16', 'Owner B', '161-161-1616'),
+    (17, 'Store Q', 'Location 17', 'Owner C', '171-171-1717'),
+    (18, 'Store R', 'Location 18', 'Owner D', '181-181-1818'),
+    (19, 'Store S', 'Location 19', 'Owner E', '191-191-1919'),
+    (20, 'Store T', 'Location 20', 'Owner F', '202-202-2020'),
+    (21, 'Store U', 'Location 21', 'Owner G', '212-212-2121'),
+    (22, 'Store V', 'Location 22', 'Owner H', '222-222-2222'),
+    (23, 'Store W', 'Location 23', 'Owner I', '232-232-2323'),
+    (24, 'Store X', 'Location 24', 'Owner J', '242-242-2424'),
+    (25, 'Store Y', 'Location 25', 'Owner K', '252-252-2525'),
+    (26, 'Store Z', 'Location 26', 'Owner L', '262-262-2626'),
+    (27, 'Store AA', 'Location 27', 'Owner MM', '272-272-2727'),
+    (28, 'Store BB', 'Location 28', 'Owner NN', '282-282-2828'),
+    (29, 'Store CC', 'Location 29', 'Owner OO', '292-292-2929'),
+    (30, 'Store DD', 'Location 30', 'Owner PP', '303-303-3030'),
+    (31, 'Store EE', 'Location 31', 'Owner QQ', '313-313-3131'),
+    (32, 'Store FF', 'Location 32', 'Owner RR', '323-323-3232'),
+    (33, 'Store GG', 'Location 33', 'Owner SS', '333-333-3333'),
+    (34, 'Store HH', 'Location 34', 'Owner TT', '343-343-3434'),
+    (35, 'Store II', 'Location 35', 'Owner UU', '353-353-3535'),
+    (36, 'Store JJ', 'Location 36', 'Owner VV', '363-363-3636'),
+    (37, 'Store KK', 'Location 37', 'Owner WW', '373-373-3737'),
+    (38, 'Store LL', 'Location 38', 'Owner XX', '383-383-3838'),
+    (39, 'Store MM', 'Location 39', 'Owner YY', '393-393-3939'),
+    (40, 'Store NN', 'Location 40', 'Owner ZZ', '404-404-4040'),
+    (41, 'Store OO', 'Location 41', 'Owner AA', '414-414-4141'),
+    (42, 'Store PP', 'Location 42', 'Owner BB', '424-424-4242'),
+    (43, 'Store QQ', 'Location 43', 'Owner CC', '434-434-4343'),
+    (44, 'Store RR', 'Location 44', 'Owner DD', '444-444-4444'),
+    (45, 'Store SS', 'Location 45', 'Owner EE', '454-454-4545'),
+    (46, 'Store TT', 'Location 46', 'Owner FF', '464-464-4646'),
+    (47, 'Store UU', 'Location 47', 'Owner GG', '474-474-4747'),
+    (48, 'Store VV', 'Location 48', 'Owner HH', '484-484-4848'),
+    (49, 'Store WW', 'Location 49', 'Owner II', '494-494-4949'),
+    (50, 'Store XX', 'Location 50', 'Owner JJ', '505-505-5050');
